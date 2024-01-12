@@ -25,9 +25,36 @@
 .form-container{
     display: flex;
     justify-content: center;
-    background-color: blueviolet;
-    height: 90vh;
+    align-items: center;
+    background-color: rgb(179, 138, 218);
+    height: 93vh;
+    width: 100vw;
 }
 .form-part{
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.397);
+    text-align: center;
+    border-radius: 5px;
+}
+.form-part input {
+    margin-top: 10px;
+    background-color: #ffffff62;
+    border: 0 ;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.form-part input:hover{
+    background-color: #ffffff;
+}
+.form-part input:focus{
+    outline: 1px solid blue;
+}
+.form-part input[type="submit"]{
+    background-color: rgb(182, 109, 255);
+    color: #fff;
+    font-weight: 700;
 }
