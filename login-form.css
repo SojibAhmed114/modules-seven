@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 10px 30px;
+}
+.other-links a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.login-link a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+/* form part */
+.form-container{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    height: 90vh;
+}
+.form-part{
+    padding: 10px;
+}
