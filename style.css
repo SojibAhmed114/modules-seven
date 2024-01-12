@@ -1,3 +1,29 @@
+.di{
+    background-color: #3cff9d;
+    padding: 10px;
+    width: 30%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.click{
+    border: 1px solid #fc1f1f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #fc1f1f;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: white;
+}
+.click:hover{
+    background-color: rgb(255, 255, 255);
+    transition: all .5s;
+    border-radius: 20px;
+    color: rgb(255, 0, 0);
+}
+.click:visited{
+    background-color: black;
+}
 .flexbox-container{
     /* width: 80vw;
     height: 72vw; */
