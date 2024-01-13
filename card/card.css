@@ -33,7 +33,7 @@ width: 90vw;
 
 } 
 
-@media screen  and (min-width: 577px) and (max-width: 992px){
+@media screen  and (min-width: 577px) and (max-width: 768px){
     .food-container{
         width: 90vw;
         grid-template-columns: repeat(2, 1fr);
