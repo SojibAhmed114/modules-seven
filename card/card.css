@@ -33,6 +33,12 @@ width: 90vw;
 
 } 
 
+main  button{
+    display: block;
+    padding: 5px;
+    margin: 20px auto;
+}
+
 @media screen  and (min-width: 577px) and (max-width: 768px){
     .food-container{
         width: 90vw;
